@@ -12,11 +12,6 @@ import {AdsenseModule} from "ng2-adsense";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // shown passing global defaults (optional)
-    AdsenseModule.forRoot({
-      adClient: 'ca-pub-7925809755049590',
-      adSlot: 4570773814,
-    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
